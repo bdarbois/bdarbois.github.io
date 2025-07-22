@@ -1,144 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Baptiste Darbois Texier - CNRS Researcher</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; }
-        img { max-width: 600px; border-radius: 10px; }
-        h1, h2 { color: #2c3e50; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baptiste Darbois Texier - CNRS Researcher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #2c3e50;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    img.profile {
+      max-width: 180px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    h1, h2 {
+      color: #34495e;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      background: #ecf0f1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .pub-img {
+      display: block;
+      margin: 10px auto;
+      max-height: 240px;
+      border-radius: 6px;
+    }
+
+    .media-list li {
+      margin-bottom: 12px;
+    }
+  </style>
 </head>
 <body>
 
-    <h2>Baptiste Darbois Texier</h2>
+  <header>
+    <h1>Baptiste Darbois Texier</h1>
+    <p>CNRS Researcher at Laboratory FAST (UMR 7608), Paris-Saclay University</p>
+    <img src="photo_bapt3.jpg" alt="Baptiste Darbois Texier" class="profile" />
+  </header>
 
-    <!-- Simulated Header -->
-    <div>
-        <img src="photo_bapt3.jpg" alt="Baptiste Darbois Texier">
-        <p> CNRS Researcher at Laboratory FAST (UMR 7608), Paris-Saclay University</p>
-    </div>
+  <nav>
+    <a href="#contact">Contact</a>
+    <a href="#thematics">Thematics</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#media">Media</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#community">Community</a>
+    <a href="#projects">Projects</a>
+    <a href="#collaborations">Collaborations</a>
+  </nav>
 
-    <h1>Contact</h1>
-    <ul>
-        <li>baptiste.darbois-texier[at]universite-paris-saclay.fr</li>
-        <li>baptiste.darbois-texier[at]cnrs.fr</li>
-    </ul>
+  <div class="container">
 
-    <h1>Thematics</h1>
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: baptiste.darbois-texier[at]universite-paris-saclay.fr</li>
+        <li>Email: baptiste.darbois-texier[at]cnrs.fr</li>
+      </ul>
+    </section>
 
-    <p>
-        The soil on our planet is an extremely heterogeneous material, made up of particles that vary greatly in size, shape and composition. This collection of particles can be described as granular, whether in dry or wet conditions. When the climate changes, soils can exhibit critical behaviours such as landslides, mudslides and avalanches. Soils are also unique eco-systems for the many living organisms that burrow beneath the surface and move through them. Preventing the risks associated with geophysical events and preserving soils requires an in-depth understanding of the behaviour of granular media.Our work focuses on the mechanics of these granular materials, which are made up of an assembly of solid grains, and on the effect of various factors influencing their macroscopic responses, such as the presence of fluids, capillary bridges or fibres in the interstices between the grains. These materials are used as model systems to study soil behaviour in the laboratory. In practice, we characterise the macroscopic response of these materials using model experiments and interpret our observations using concepts from the field of soft matter. This approach is essential for developing new strategies for reinforcing soils with fibres in order to combat erosion, as well as for gaining a deeper understanding of the interactions between organisms living beneath the surface and soil properties. To this end, we are developing bio-inspired robots and studying their behaviour in granular materials, which represents a major challenge in robotics.
-    </p>
-    
-    <h1>Research topics</h1>
-    
-    <ul>
+    <section id="thematics">
+      <h2>Thematics</h2>
+      <p>
+    The soil on our planet is an extremely heterogeneous material, made up of particles that vary greatly in size, shape and composition. This collection of particles can be described as granular, whether in dry or wet conditions. When the climate changes, soils can exhibit critical behaviours such as landslides, mudslides and avalanches. Soils are also unique eco-systems for the many living organisms that burrow beneath the surface and move through them. Preventing the risks associated with geophysical events and preserving soils requires an in-depth understanding of the behaviour of granular media. Our work focuses on the mechanics of these granular materials, which are made up of an assembly of solid grains, and on the effect of various factors influencing their macroscopic responses, such as the presence of fluids, capillary bridges or fibres in the interstices between the grains. These materials are used as model systems to study soil behaviour in the laboratory. In practice, we characterise the macroscopic response of these materials using model experiments and interpret our observations using concepts from the field of soft matter. This approach is essential for developing new strategies for reinforcing soils with fibres in order to combat erosion, as well as for gaining a deeper understanding of the interactions between organisms living beneath the surface and soil properties. To this end, we are developing bio-inspired robots and studying their behaviour in granular materials, which represents a major challenge in robotics.
+  </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Topics</h2>
+      <ul>
         <li>Granular media (Flow, Rheology, Locomotion)</li>
         <li>Fluid Mechanics (Capillarity, Wetting, Dense Suspensions, Complex Fluids)</li>
         <li>Elasticity of slender structures (Fibres, Hydrogels, Impacts)</li>
-    </ul>
-    
-    <h1>Recent publications</h1>
-    
-    <ul>
-    
-<li><b>Vane rheology of a fiber-reinforced granular material</b><br>
-Wierzchalek, L., Gauthier, G., & Darbois Texier, B.  <i>Journal of Rheology</i> <b>69</b>(3), 353-363 (2025).<br>
-[<a href="https://doi.org/10.1122/8.0000960" target="_blank">Link</a>| <a href="https://arxiv.org/pdf/2506.11762">PDF</a>]</li>
+      </ul>
+    </section>
 
-<center>
-<img src="m_jor.2025.69.issue-3.largecover.jpeg" alt="" height="240">
-</center>
-<br>
+    <section id="publications">
+      <h2>Recent Publications</h2>
+      <ul>
+        <li><b>Vane rheology of a fiber-reinforced granular material</b><br>
+        Wierzchalek, L., Gauthier, G., & Darbois Texier, B. (2025). <i>Journal of Rheology</i> 69(3), 353-363.<br>
+        [<a href="https://doi.org/10.1122/8.0000960">Link</a> | <a href="https://arxiv.org/pdf/2506.11762">PDF</a>]
+        <img src="m_jor.2025.69.issue-3.largecover.jpeg" class="pub-img" /></li>
 
-<li><b>Drag reduction during the side-by-side motion of a pair of intruders in a granular medium</b><br>
-Carvalho, D. D., Bertho, Y., Seguin, A., Franklin, E. M., Darbois Texier, B.  <i>Physical Review Fluids</i> <b>9</b>(11), 114303 (2024).<br>
-[<a href="https://doi.org/10.1103/PhysRevFluids.9.114303" target="_blank">Link</a>| <a href="https://arxiv.org/pdf/2411.10602">PDF</a>]</li>
+        <li><b>Drag reduction during the side-by-side motion of a pair of intruders in a granular medium</b><br>
+        Carvalho, D. D., Bertho, Y., Seguin, A., Franklin, E. M. & Darbois Texier, B. (2024). <i>Phys. Rev. Fluids</i> 9(11), 114303.<br>
+        [<a href="https://doi.org/10.1103/PhysRevFluids.9.114303">Link</a> | <a href="https://arxiv.org/pdf/2411.10602">PDF</a>]
+        <img src="multi_objects_granular.jpg" class="pub-img" /></li>
 
-<center>
-<img src="multi_objects_granular.jpg" alt=" height="180">
-</center>
-<br>
+        <li><b>Thermal Antibubbles: When Thermalization of Encapsulated Leidenfrost Drops Matters</b><br>
+        Miguet, J., Scheid, B., Maquet, L., Texier, B. D., & Dorbolo, S. (2023). <i>Phys. Rev. Lett.</i> 131(18), 184001.<br>
+        [<a href="https://doi.org/10.1103/PhysRevLett.131.184001">Link</a> | <a href="https://hal.science/hal-04362394v1/document">PDF</a>]
+        <img src="antibubble.jpg" class="pub-img" /></li>
 
-<li><b>Thermal Antibubbles: When Thermalization of Encapsulated Leidenfrost Drops Matters</b><br>
-Miguet, J., Scheid, B., Maquet, L., Texier, B. D., & Dorbolo, S.  <i>Physical Review Letters</i> <b>131</b>(18), 184001 (2023).<br>
-[<a href="https://doi.org/10.1103/PhysRevLett.131.184001" target="_blank">Link</a>| <a href="https://hal.science/hal-04362394v1/document">PDF</a>]</li>
+        <li><b>Downslope granular flow through a forest of obstacles</b><br>
+        Darbois Texier, B., Bertho, Y., & Gondret, P., (2023). <i>Phys. Rev. Fluids</i> 8(3), 034303.<br>
+        [<a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.034303">Link</a> | <a href="https://arxiv.org/pdf/2303.01617.pdf">PDF</a>]
+        <img src="granular_forest.jpg" class="pub-img" /></li>
+      </ul>
 
-<center>
-<img src="antibubble.jpg" alt="" height="240">
-</center>
-<br>
+      <p><a href="https://bdarbois.github.io/publications.html">Publications List</a> | <a href="https://cv.hal.science/baptistedarbois-texier">Publications on HAL</a></p>
+    </section>
 
-<li><b> Downslope granular flow through a forest of obstacles.</b><br>
-Darbois Texier, B., Bertho, Y., & Gondret, P., <i> Physical Review Fluids</i> <b>8</b>(3), 034303 (2023).<br>
-[<a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.034303" target="_blank">Lien</a>| <a href="https://arxiv.org/pdf/2303.01617.pdf">PDF</a>]</li>
+    <section id="media">
+      <h2>Media</h2>
+      <ul class="media-list">
+        <li><b>Cooperation between intruders...</b> Phys.org [<a href="https://phys.org/news/2024-12-cooperation-intruders-side-granular-media.html">Link</a>]</li>
+        <li><b>Antibubbles:</b> Sabine Hossenfelder [<a href="https://www.youtube.com/watch?v=nIYq62U4c-s">Link</a>]</li>
+        <li><b>Thermal antibubbles journey</b> Phys.org [<a href="https://phys.org/news/2023-11-journey-thermal-antibubbles-hot.html">Link</a>]</li>
+        <li><b>La Matière Molle</b> YouTube [<a href="https://www.youtube.com/watch?v=VK1XPBD7_D4/">Link</a>]</li>
+        <li><b>Forest of obstacles slows flow</b> Physics World [<a href="https://physicsworld.com/a/forest-of-cylindrical-obstacles-slows-avalanche-flow/">Link</a>]</li>
+      </ul>
+    </section>
 
-<center>
-<img src="granular_forest.jpg" alt=""  height="240">
-</center>
-<br>
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Experimental Methods in Fluid Mechanics – Master 1, Paris-Saclay</li>
+        <li>Robotics project supervision – CentraleSupélec (1st & 2nd years)</li>
+      </ul>
+    </section>
 
-</ul>
+    <section id="community">
+      <h2>Community Involvement</h2>
+      <ul>
+        <li>President, Condensed Matter Physics Division – SFP [<a href="https://www.sfpnet.fr/thematique/physique-de-la-matiere-condensee">Link</a>]</li>
+        <li>Seminar co-organiser – FAST lab [<a href="https://semmeca.limsi.fr/">Link</a>]</li>
+        <li> Co-organiser of the session on "Model approaches for Earth sciences" at the 27th SFP General Congress (30 June - 4 July 2025) [<a href="https://cgsfp2025.sciencesconf.org/resource/page?id=23&forward-action=page&forward-controller=resource&lang=en">Link</a>].</li>
+        <li> Co-organiser of the "Physics of Divided Matter" mini-colloquium for the Condensed Matter Days 2024 in Marseille (28-31 October 2024) [<a href="https://jmc2024.sciencesconf.org/resource/page/id/11">Link</a>].</li>
+      </ul>
+    </section>
 
-<h2><a href="https://bdarbois.github.io/publications.html">Publications List</a></h2>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>2024–2029: TOTEM – PhOM Graduate School, Paris-Saclay</li>
+        <li>2023–2027: FiLiGran – ANR JCJC 2022 [<a href="http://www.fast.u-psud.fr/~darbois-texier/filigran.php">Lien</a>]</li>
+        <li>2022–2023: ERGbotS – PEPS INSIS 2022</li>
+      </ul>
+    </section>
 
-<h2><a href="https://cv.hal.science/baptistedarbois-texier">Publications on HAL</a></h2>
+    <section id="collaborations">
+      <h2>Collaborations</h2>
+      <p>
+        <a href="https://scholar.google.be/citations?user=FMKiX5IAAAAJ&hl=fr">Loic Tadrist</a>, 
+        <a href="https://scholar.google.com/citations?user=8fuNPLIAAAAJ&hl=en">Francisco Melo</a>, 
+        <a href="https://scholar.google.com/citations?user=Y5I09PwAAAAJ&hl=es">Juan F. Fuentealba</a>, 
+        <a href="https://stephanedorbolo.wixsite.com/dorbo">S. Dorbolo</a>, 
+        <a href="https://splashlab.org/author/admin/">T. Truscott</a>, 
+        <a href="https://blog.espci.fr/jbico/">J. Bico</a>, 
+        <a href="https://scholar.google.com/citations?user=yuPT_4IAAAAJ&hl=fr">P. Brunet</a>, 
+        <a href="https://metalurgia.usm.cl/academicos/sergio-palma/">S. Palma</a>, 
+        <a href="https://sites.google.com/site/physicsjohannherault/">J. Herault</a>
+      </p>
+    </section>
 
-
-<h1>Media</h1>
-
-<ul>
-
-	<li><b> Cooperation between two intruders moving side-by-side in granular media</b><br>Phys.org (28/12/2024) [<a href="https://phys.org/news/2024-12-cooperation-intruders-side-granular-media.html" target="_blank">Lien</a>]</li>
-
-   <li><b> Antibubbles: Finally a reliable way to create them</b><br> @SabineHossenfelder (11/12/2023) [<a href="https://www.youtube.com/watch?v=nIYq62U4c-s" target="_blank">Lien</a>]</li>
-
-   <li><b> Researchers describe the journey of thermal antibubbles in a hot bath</b><br>Phys.org (27/11/2023) [<a href="https://phys.org/news/2023-11-journey-thermal-antibubbles-hot.html" target="_blank">Lien</a>]</li>
-
-   <li><b> La Mati&egravere Molle</b><br>le_prof_de_physique, Fabien Bornes (06/11/2023) [<a href="https://www.youtube.com/watch?v=VK1XPBD7_D4/" target="_blank">Lien</a>]</li>
-
-   <li><b> Forest of cylindrical obstacles' slows avalanche flow</b><br>Physics World (05/05/2023) [<a href="https://physicsworld.com/a/forest-of-cylindrical-obstacles-slows-avalanche-flow/" target="_blank">Lien</a>]</li>
-   
-   <li><b> How forest density slows granular flows</b><br>Phys.org (11/04/2023) [<a href="https://phys.org/news/2023-04-forest-density-granular.html" target="_blank">Lien</a>]</li>
-   
-   <li><b> Making waves without inertia</b><br>Nature Reviews Physics, Research highlights (06/01/2021) [<a href="https://doi.org/10.1038/s42254-020-00277-z" target="_blank">Lien</a>]</li>
-  
-</ul>
-
-<h1> Teaching </h1>
-
-<ul>
-    <li> Experimental Methods in Fluid Mechanics for the Master 1 in Mechanics at Paris-Saclay.  </li>
-    <li> Supervision of robotics projects at Ecole Centrale-Supelec (1st and 2nd year students).</li>
-</ul>
-
-
-<h1> Community involvement</h1>
-
-<ul>
-    <li> President of the Condensed Matter Physics Division of the Soci&eacute;t&eacute; Francaise de Physique (SFP)
- [<a href="https://www.sfpnet.fr/thematique/physique-de-la-matiere-condensee">Lien</a>].</li>
-    <li> Co-organiser of the FAST laboratory seminars [<a href="https://semmeca.limsi.fr/">Lien</a>].</li>
-    <li> Co-organiser of the session on "Model approaches for Earth sciences" at the 27th SFP General Congress (30 June - 4 July 2025) [<a href="https://cgsfp2025.sciencesconf.org/resource/page?id=23&forward-action=page&forward-controller=resource&lang=en">Lien</a>].</li>
-    <li> Co-organiser of the "Physics of Divided Matter" mini-conference for the Condensed Matter Days 2024 in Marseille (28-31 October 2024) [<a href="https://jmc2024.sciencesconf.org/resource/page/id/11">Lien</a>].</li>
-    <li> Co-organiser of the Soft Matter mini-conference for the 26th SFP General Congress (3-7 July 2023) [<a href="https://indico.ijclab.in2p3.fr/event/8021/page/284-mc15-matiere-molle-des-concepts-fondamentaux-a-la-fabrication-de-systemes-originaux">Lien</a>].</li>
-</ul>
-
-
-<h1> Projects </h1>
-
-<ul>
-    <li> 2024-2029: TOTEM (Transformation Of TEsting Machine), Appel &agrave projet 2024 de l'axe PhOM de la Graduate School de Physique de l'Universit&eacute Paris Saclay.</li>
-    <li> 2023-2027: FiLiGran (Mechanics of Fiber-interLinked Granular materials), ANR JCJC 2022. [<a href="http://www.fast.u-psud.fr/~darbois-texier/filigran.php">Lien</a>]</li>
-    <li> 2022-2023: ERGbotS (Effet de la perception sensorielle et de la R&eacutetroaction sur un substrat Granulaire
-pour un robot Serpent), PEPS INSIS 2022.</li>
-</ul>
-
-
-<h1>Collaborations</h1>
-
-<a href="https://scholar.google.be/citations?user=FMKiX5IAAAAJ&hl=fr">Loic Tadrist</a> (Universit&eacute Aix-Marseille), <a href="https://scholar.google.com/citations?user=8fuNPLIAAAAJ&hl=en">Francisco Melo</a> (USACH, Santiago), <a href="https://scholar.google.com/citations?user=Y5I09PwAAAAJ&hl=es">Juan Francisco Fuentealba</a> (Univ. Centrale, Santiago), <a href="https://stephanedorbolo.wixsite.com/dorbo">St&eacutephane Dorbolo</a> (ULiege, Belgique), <a href="https://splashlab.org/author/admin/">Tadd Truscott</a> (Utah State University), <a href="https://blog.espci.fr/jbico/">Jos&eacute Bico</a> (PMMH, Paris), <a href="https://scholar.google.com/citations?user=yuPT_4IAAAAJ&hl=fr">Philippe Brunet</a> (MSC, Paris), <a href="https://metalurgia.usm.cl/academicos/sergio-palma/">Sergio Palma</a> (USM, Santiago), <a href="https://sites.google.com/site/physicsjohannherault/ ">Johann Herault</a> (LS2N, Nantes). 
-
+  </div>
 </body>
 </html>
